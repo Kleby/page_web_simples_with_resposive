@@ -1,0 +1,38 @@
+.menu_hamburgue{
+   width: 2.25em;
+   height: 2.25em;
+   background-color: #222;  
+}
+
+.menu_hamburgue .menu_close{
+   padding: 0.375em;
+   display: none;
+   height: 100%;
+   /* display: flex; 
+   flex-direction: column;
+   justify-content: space-around; */
+}
+
+.menu_hamburgue .menu_close .line {
+   content: '';
+   color: #fff;
+   border-bottom: 0.1875em solid #fff;
+}
+
+.menu_open{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* width: 100%; */
+   /* height: 100%; */
+}
+   
+
+.menu_open .line-x::before{
+   height: 100%;
+   width: 100%;
+   justify-content: center;
+   content: 'X';
+   font-size: 2rem;
+   color: #fff;
+}
